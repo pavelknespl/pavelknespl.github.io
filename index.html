@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Školní zpravodajství</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+  <link rel="icon" href="assets/logo.png" type="image/png">
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+
+  <header class="py-4 px-4 d-flex align-items-center" style="background-color: #007bff;">
+    <a href="index.html"><img src="assets/logo.png" alt="Logo školy" class="me-4" style="height: 60px;" /></a>
+    <div>
+      <h1 class="h3 text-white mb-0"><i class="fas fa-newspaper me-2"></i>Školní zpravodajství</h1>
+      <p class="text-white mb-0">Novinky ze SPŠMB</p>
+    </div>
+  </header>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Domů</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="onas.html">O nás</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Články</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="clanek1.html">Pan Esch vyhrál!</a></li>
+              <li><a class="dropdown-item" href="clanek2.html">Max vyhrál!</a></li>
+              <li><a class="dropdown-item" href="clanek3.html">Dominik má občanství!</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container my-5">
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="assets/case.png" class="card-img-top" alt="Bedna" />
+          <div class="card-body">
+            <h5 class="card-title">Pan Esch vyhrál!</h5>
+            <p class="card-text">Pan Esch vyhrál velké peníze během IKT!</p>
+          </div>
+          <div class="card-footer text-center">
+            <a href="clanek1.html" class="btn btn-primary">Přečíst článek</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="assets/ukr.jpg" class="card-img-top" alt="Maxim po jeho zápase" />
+          <div class="card-body">
+            <h5 class="card-title">Max vyhrál!</h5>
+            <p class="card-text">Maxim krynyckyj dne 4.5 2025 vyhrál!</p>
+          </div>
+          <div class="card-footer text-center">
+            <a href="clanek2.html" class="btn btn-primary">Přečíst článek</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="assets/polski.jpg" class="card-img-top" alt="Dominik" />
+          <div class="card-body">
+            <h5 class="card-title">Dominik Filip dostal občanství</h5>
+            <p class="card-text">Dominik Filip Sierechan dostal české občanství!</p>
+          </div>
+          <div class="card-footer text-center">
+            <a href="clanek3.html" class="btn btn-primary">Přečíst článek</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 mb-4">
+        <div class="card">
+          <img src="assets/skola.png" class="card-img-top" alt="Hořící škola (vylepšeno AI)" style="width: 100%; height: 100%;" />
+          <div class="card-body">
+            <h5 class="card-title">Škola hoří!</h5>
+            <p class="card-text">Dnes bohužel shořela celá škola SPŠMB a bylo oznámeno že se studenti přesunou na SOU Škoda, někteří studenti tento přesun nechtějí.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 mb-4">
+        <div class="card">
+          <img src="assets/eda.jpg" class="card-img-top" alt="Vyděšený eda" style="width: 100%; height: 100%;" />
+          <div class="card-body">
+            <h5 class="card-title">Ztratil se Eda!</h5>
+            <p class="card-text">AKTUÁLNÍ, hledá se Eduard Fejfar který byl naposledy viděn spící na lavičce před školou.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="text-center py-4 mt-auto" style="background-color: #007bff; color: white;">
+    <p>&copy; 2025 Školní zpravodajství.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

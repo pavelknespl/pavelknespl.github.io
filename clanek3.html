@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dominik získal občanství</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+  <link rel="icon" href="assets/logo.png" type="image/png">
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+
+  <header class="py-4 px-4 d-flex align-items-center" style="background-color: #007bff;">
+    <a href="index.html"><img src="assets/logo.png" alt="Logo školy" class="me-4" style="height: 60px;" /></a>
+    <div>
+      <h1 class="h3 text-white mb-0"><i class="fas fa-newspaper me-2"></i>Školní zpravodajství</h1>
+      <p class="text-white mb-0">Novinky ze SPŠMB</p>
+    </div>
+  </header>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Domů</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="onas.html">O nás</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Články</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="clanek1.html">Pan Esch vyhrál!</a></li>
+              <li><a class="dropdown-item" href="clanek2.html">Max vyhrál!</a></li>
+              <li><a class="dropdown-item" href="clanek3.html">Dominik má občanství!</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container my-5">
+    <article class="text-center">
+      <h2 class="mb-4">Dominik Filip dostal občanství!</h2>
+      <p class="lead">Velice gratulujeme Dominikovi Filipovi Sierechanovi k získání českého občanství! Věříme že bude velice kvalitní občan a že bude přispívat do společnosti.</p>
+    </article>
+
+    <div class="text-center mt-5">
+      <img src="assets/polski.jpg" alt="bedna" class="img-thumbnail popup-trigger" style="max-width: 300px;" />
+    </div>
+  </main>
+
+  <div class="popup-overlay" id="popup">
+    <span class="popup-close">&times;</span>
+    <img src="" id="popup-img" alt="bedna" />
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Školní zpravodajství.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
